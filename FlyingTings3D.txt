@@ -1,0 +1,13 @@
+#!/bin/bash
+
+mkdir FlyingThings3D
+cd FlyingThings3D
+
+#link to download Cleanpas
+wget --no-check-certificate http://lmb.informatik.uni-freiburg.de/data/SceneFlowDatasets_CVPR16/Release_april16/data/FlyingThings3D/raw_data/flyingthings3d__frames_cleanpass.tar
+
+#link to download optical flow files
+wget --no-check-certificate http://lmb.informatik.uni-freiburg.de/data/SceneFlowDatasets_CVPR16/Release_april16/data/FlyingThings3D/derived_data/flyingthings3d__optical_flow.tar.bz2
+
+tar xvf flyingthings3d__frames_cleanpass.tar
+tar xvf flyingthings3d__optical_flow.tar.bz2
