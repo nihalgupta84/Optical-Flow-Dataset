@@ -1,0 +1,5 @@
+cd FlyingChairs_release
+
+wget --no-check-certificate http://lmb.informatik.uni-freiburg.de/data/FlyingChairs/FlyingChairs.zip
+
+unzip FlyingChairs.zip
