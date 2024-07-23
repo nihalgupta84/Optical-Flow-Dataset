@@ -1,0 +1,7 @@
+mkdir ChairsSDHom
+
+cd ChairsSDHom
+
+wget --no-check-certificate https://lmb.informatik.uni-freiburg.de/data/FlowNet2/ChairsSDHom/ChairsSDHom.tar.gz
+
+tar xvzf ChairsSDHom.tar.gz
